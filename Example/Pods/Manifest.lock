@@ -1,0 +1,16 @@
+PODS:
+  - SYParallaxScrollView (0.1.0)
+
+DEPENDENCIES:
+  - SYParallaxScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  SYParallaxScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SYParallaxScrollView: 7605c96c338c9841a14a05129b534bfbb7a21b7d
+
+PODFILE CHECKSUM: 4c44296314710cfcf4c52b5efa6ca64d9c87913c
+
+COCOAPODS: 1.1.1

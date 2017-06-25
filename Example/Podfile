@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SYParallaxScrollView_Tests' do
+  pod 'SYParallaxScrollView', :path => '../'
+  
+  
+end
