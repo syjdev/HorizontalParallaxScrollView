@@ -1,5 +1,5 @@
 PODS:
-  - SYParallaxScrollView (0.1.0)
+  - SYParallaxScrollView (0.1.1)
 
 DEPENDENCIES:
   - SYParallaxScrollView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SYParallaxScrollView: 9c60874c2a02bf9fa189197ebbc5633959118374
+  SYParallaxScrollView: 17951f8e727dd5721791108d8c3e5fcf515c0082
 
 PODFILE CHECKSUM: ec2002fc36d568481a8e2dd18f04946538fe9006
 

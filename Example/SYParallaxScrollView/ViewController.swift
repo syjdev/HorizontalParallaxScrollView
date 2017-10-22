@@ -9,9 +9,12 @@
 import UIKit
 //import SYParallaxScrollView
 
-class ViewController : UIViewController {
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-
+//        SYParallaxScrollViewVersionNumber
+    }
 }
 
 //class ViewController: UIViewController, SYParallaxScrollViewDelegate {
