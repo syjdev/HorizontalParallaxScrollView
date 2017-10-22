@@ -3,9 +3,4 @@ use_frameworks!
 target 'SYParallaxScrollView_Example' do
   pod 'SYParallaxScrollView', :path => '../'
 
-  target 'SYParallaxScrollView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

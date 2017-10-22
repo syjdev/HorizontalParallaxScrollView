@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E2964FFBDC4C6BB2C1142D227BADC28"
+               BlueprintIdentifier = "30D25B3868CAC00C8BB0024A8D86F35A"
                BuildableName = "Pods_SYParallaxScrollView_Example.framework"
                BlueprintName = "Pods-SYParallaxScrollView_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E2964FFBDC4C6BB2C1142D227BADC28"
+            BlueprintIdentifier = "30D25B3868CAC00C8BB0024A8D86F35A"
             BuildableName = "Pods_SYParallaxScrollView_Example.framework"
             BlueprintName = "Pods-SYParallaxScrollView_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

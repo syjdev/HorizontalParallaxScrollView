@@ -7,9 +7,10 @@
 //
 
 import UIKit
-import SYParallaxScrollView
+//import SYParallaxScrollView
 
 class ViewController : UIViewController {
+
 
 }
 
