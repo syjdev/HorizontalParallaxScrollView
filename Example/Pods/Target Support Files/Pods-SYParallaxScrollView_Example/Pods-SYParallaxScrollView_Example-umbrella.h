@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SYParallaxScrollView_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SYParallaxScrollView_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_SYParallaxScrollView_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SYParallaxScrollView_ExampleVersionString[];
 
