@@ -17,12 +17,12 @@ SYParallaxScrollView is available through [CocoaPods](http://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SYParallaxScrollView"
+pod 'SYParallaxScrollView'
 ```
 
 ## Author
 
-syjdev@gmail.com, sangjin5213@coupang.com
+syjdev@gmail.com
 
 ## License
 

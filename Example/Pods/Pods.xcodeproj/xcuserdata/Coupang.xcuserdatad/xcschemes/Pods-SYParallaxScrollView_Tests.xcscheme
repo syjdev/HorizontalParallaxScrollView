@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2921F89C1328662E545A1036DEB0A9D8"
+               BlueprintIdentifier = "60FD502D4CF20BEE4392E28F405FAAB3"
                BuildableName = "Pods_SYParallaxScrollView_Tests.framework"
                BlueprintName = "Pods-SYParallaxScrollView_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2921F89C1328662E545A1036DEB0A9D8"
+            BlueprintIdentifier = "60FD502D4CF20BEE4392E28F405FAAB3"
             BuildableName = "Pods_SYParallaxScrollView_Tests.framework"
             BlueprintName = "Pods-SYParallaxScrollView_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">
