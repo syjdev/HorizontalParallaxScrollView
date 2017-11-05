@@ -16,15 +16,15 @@ public enum SYParallaxAcceleration {
 
 
 public struct SYParallaxViewItem {
-    let view: UIView
-    let originOffset: CGPoint
-    let acceleration: SYParallaxAcceleration
-    let progress: ((_ parallaxScrollView: SYParallaxScrollView, _ view: UIView) -> Void)
+    public let view: UIView
+    public let originOffset: CGPoint
+    public let acceleration: SYParallaxAcceleration
+    public let progress: ((_ parallaxScrollView: SYParallaxScrollView, _ view: UIView) -> Void)
 
-    init(view: UIView,
-         originOffset: CGPoint = CGPoint.zero,
-         acceleration: SYParallaxAcceleration,
-         progress: @escaping ((_ parallaxScrollView: SYParallaxScrollView, _ view: UIView) -> Void) = { _ ,_ in }) {
+    public init(view: UIView,
+                originOffset: CGPoint = CGPoint.zero,
+                acceleration: SYParallaxAcceleration,
+                progress: @escaping ((_ parallaxScrollView: SYParallaxScrollView, _ view: UIView) -> Void) = { _ ,_ in }) {
         self.view = view
         self.originOffset = originOffset
         self.acceleration = acceleration

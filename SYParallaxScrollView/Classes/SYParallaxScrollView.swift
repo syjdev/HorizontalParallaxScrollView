@@ -13,30 +13,30 @@ import UIKit
 public class SYParallaxScrollViewBuilder: NSObject {
     private let parallaxScrollViewOption: SYParallaxScrollViewOption
 
-    
+
     private init(parallaxScrollViewOption: SYParallaxScrollViewOption) {
         self.parallaxScrollViewOption = parallaxScrollViewOption
         super.init()
     }
 
 
-    class func setOption(_ closure: ((inout SYParallaxScrollViewOption) -> Void)) -> SYParallaxScrollViewBuilder {
+    public class func setOption(_ closure: ((inout SYParallaxScrollViewOption) -> Void)) -> SYParallaxScrollViewBuilder {
         var option = SYParallaxScrollViewOption(parallaxViewItems: nil, frame: CGRect.zero, isPagingEnabled: false)
         closure(&option)
         return SYParallaxScrollViewBuilder(parallaxScrollViewOption: option)
     }
 
 
-    func build() -> SYParallaxScrollView {
+    public func build() -> SYParallaxScrollView {
         return SYParallaxScrollView(option: parallaxScrollViewOption)
     }
 }
 
 
 public struct SYParallaxScrollViewOption {
-    var parallaxViewItems: Array<SYParallaxViewItem>?
-    var frame: CGRect
-    var isPagingEnabled: Bool
+    public var parallaxViewItems: Array<SYParallaxViewItem>?
+    public var frame: CGRect
+    public var isPagingEnabled: Bool
 }
 
 
@@ -56,8 +56,8 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
     private let internalScrollView = UIScrollView()
 
     var delegate: SYParallaxScrollViewDelegate?
-    var contentOffset: CGPoint { return internalScrollView.contentOffset }
-    var contentSize: CGSize { return internalScrollView.contentSize }
+    public var contentOffset: CGPoint { return internalScrollView.contentOffset }
+    public var contentSize: CGSize { return internalScrollView.contentSize }
 
 
     fileprivate init(option: SYParallaxScrollViewOption) {
@@ -95,7 +95,7 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
         }
 
         internalScrollView.contentSize = CGSize(width: maxX,
-                                          height: frame.size.height)
+                                                height: frame.size.height)
     }
 
 
