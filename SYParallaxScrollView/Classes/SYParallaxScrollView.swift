@@ -2,11 +2,12 @@
 //  SYParallaxScrollView.swift
 //  SYParallaxScrollView
 //
-//  Created by syjdev@gmail.com on 10/21/2017.
+//  Created by syjdev@gmail.com on 11/05/2017.
 //  Copyright (c) 2017 syjdev@gmail.com. All rights reserved.
 //
 
 import UIKit
+
 
 @objc
 public class SYParallaxScrollViewBuilder: NSObject {
