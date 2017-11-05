@@ -55,7 +55,7 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
     private let parallaxViewItems: Array<SYParallaxViewItem>
     private let internalScrollView = UIScrollView()
 
-    var delegate: SYParallaxScrollViewDelegate?
+    public var delegate: SYParallaxScrollViewDelegate?
     public var contentOffset: CGPoint { return internalScrollView.contentOffset }
     public var contentSize: CGSize { return internalScrollView.contentSize }
 
