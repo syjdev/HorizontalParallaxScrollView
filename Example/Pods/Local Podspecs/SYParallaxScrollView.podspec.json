@@ -1,6 +1,6 @@
 {
   "name": "SYParallaxScrollView",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of SYParallaxScrollView.",
   "description": "A very long description of SYParallaxScrollView.",
   "homepage": "https://github.com/syjdev/SYParallaxScrollView",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/syjdev/SYParallaxScrollView.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Classes/*"
+  "source_files": "SYParallaxScrollView/Classes/*"
 }

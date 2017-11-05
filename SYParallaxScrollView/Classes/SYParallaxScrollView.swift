@@ -8,7 +8,8 @@
 
 import UIKit
 
-@objc class SYParallaxScrollViewBuilder: NSObject {
+@objc
+public class SYParallaxScrollViewBuilder: NSObject {
     private let parallaxScrollViewOption: SYParallaxScrollViewOption
 
     
@@ -31,14 +32,15 @@ import UIKit
 }
 
 
-struct SYParallaxScrollViewOption {
+public struct SYParallaxScrollViewOption {
     var parallaxViewItems: Array<SYParallaxViewItem>?
     var frame: CGRect
     var isPagingEnabled: Bool
 }
 
 
-@objc protocol SYParallaxScrollViewDelegate {
+@objc
+public protocol SYParallaxScrollViewDelegate {
     @objc optional func parallaxScrollViewWillBeginDragging(_ parallaxScrollView: SYParallaxScrollView)
     @objc optional func parallaxScrollViewDidEndDragging(_ parallaxScrollView: SYParallaxScrollView, willDecelerate decelerate: Bool)
     @objc optional func parallaxScrollViewDidScroll(_ parallaxScrollView: SYParallaxScrollView)
@@ -47,7 +49,8 @@ struct SYParallaxScrollViewOption {
 }
 
 
-@objc class SYParallaxScrollView : UIView, UIScrollViewDelegate {
+@objc
+public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
     private let parallaxViewItems: Array<SYParallaxViewItem>
     private let internalScrollView = UIScrollView()
 
@@ -72,7 +75,7 @@ struct SYParallaxScrollViewOption {
     }
 
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -118,17 +121,17 @@ struct SYParallaxScrollViewOption {
 
 
     //MARK: UIScrollViewDelegate
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         delegate?.parallaxScrollViewWillBeginDragging?(self)
     }
 
 
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         delegate?.parallaxScrollViewDidEndDragging?(self, willDecelerate: decelerate)
     }
 
 
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         affineTransformParallaxItems()
         for parallaxScrollViewItem in parallaxViewItems {
             parallaxScrollViewItem.progress(self, parallaxScrollViewItem.view)
@@ -137,12 +140,12 @@ struct SYParallaxScrollViewOption {
     }
 
 
-    func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
         delegate?.parallaxScrollViewWillBeginDecelerating?(self)
     }
 
 
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         delegate?.parallaxScrollViewDidEndDecelerating?(self)
     }
 }

@@ -7,11 +7,13 @@
 //
 
 import UIKit
-//import SYParallaxScrollView
+import SYParallaxScrollView
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
 
 //        SYParallaxScrollViewVersionNumber
     }

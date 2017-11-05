@@ -1,0 +1,11 @@
+framework module SYParallaxScrollView {
+  umbrella header "SYParallaxScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SYParallaxScrollView.Swift {
+    header "SYParallaxScrollView-Swift.h"
+    requires objc
+}

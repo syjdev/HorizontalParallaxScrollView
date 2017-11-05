@@ -10,13 +10,13 @@ import Foundation
 import UIKit
 
 
-enum SYParallaxAcceleration {
+public enum SYParallaxAcceleration {
     case invariable(CGPoint)
     case variable(((_ parallaxScrollView: SYParallaxScrollView, _ view: UIView) -> CGPoint))
 }
 
 
-struct SYParallaxViewItem {
+public struct SYParallaxViewItem {
     let view: UIView
     let originOffset: CGPoint
     let acceleration: SYParallaxAcceleration

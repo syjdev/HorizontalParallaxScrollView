@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E62D994D98F4ACE761895790E91D648 /* SYParallaxScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C46F6F06FEC99D75E53026886ECEEE /* SYParallaxScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78C60CFE1F8BB9F1E3F7DD44B88AAEA9 /* Pods-SYParallaxScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DFCF7834D93C03CC22DD507A509BD4 /* Pods-SYParallaxScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F83644D1F9CF0B40091F42D /* SYParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83644B1F9CF0B40091F42D /* SYParallaxScrollView.swift */; };
-		8F83644E1F9CF0B40091F42D /* SYParallaxViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83644C1F9CF0B40091F42D /* SYParallaxViewItem.swift */; };
+		8F262BCCF548605F282FB6ACF58FC792 /* SYParallaxViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0264A8F967B8F7D3CF20A585E9D7F /* SYParallaxViewItem.swift */; };
 		AE00EC06E81DDC62D0746E40C377FBD2 /* Pods-SYParallaxScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF52DAFBB4CE9B0712AFC1B5F77923 /* Pods-SYParallaxScrollView_Example-dummy.m */; };
 		B7CAB6298E433ACC76046293C4EC8417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BEE0D4F7B9D89E8A621E16631AD90DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F06CC5A5322B760E2D68401CC397EC52 /* SYParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C048F5721718BDFE118EED5220A19E /* SYParallaxScrollView.swift */; };
+		FFC6803F8E4B778EABCCAAC984F0DE94 /* SYParallaxScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2D7FA1D5EA0CC829FC06B7F0AD72F7 /* SYParallaxScrollView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,22 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		136EDC642637530C2556B6C8D183D8A9 /* Pods-SYParallaxScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SYParallaxScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		30C442B89CFAA46962EBD36C4060AF4F /* Pods_SYParallaxScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYParallaxScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121FBA13F75A13409D27C0D0EA07B4C7 /* SYParallaxScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYParallaxScrollView-prefix.pch"; sourceTree = "<group>"; };
+		136EDC642637530C2556B6C8D183D8A9 /* Pods-SYParallaxScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SYParallaxScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		30C442B89CFAA46962EBD36C4060AF4F /* Pods_SYParallaxScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYParallaxScrollView_Example.framework; path = "Pods-SYParallaxScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5161716399651343BED8804A32F24617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6569A3972A1676A9A085F011345EF566 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70DFCF7834D93C03CC22DD507A509BD4 /* Pods-SYParallaxScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYParallaxScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		7763F083F2529AE5FB19B24A5E5CD963 /* Pods-SYParallaxScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYParallaxScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7FEF52DAFBB4CE9B0712AFC1B5F77923 /* Pods-SYParallaxScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYParallaxScrollView_Example-dummy.m"; sourceTree = "<group>"; };
-		8F83644B1F9CF0B40091F42D /* SYParallaxScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYParallaxScrollView.swift; sourceTree = "<group>"; };
-		8F83644C1F9CF0B40091F42D /* SYParallaxViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYParallaxViewItem.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC165B2347ED99260D7D1673B0B25A4 /* SYParallaxScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYParallaxScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81063299E4DC1E2F2588F51F83FC0D5B /* SYParallaxScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYParallaxScrollView.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC165B2347ED99260D7D1673B0B25A4 /* SYParallaxScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYParallaxScrollView.framework; path = SYParallaxScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31C9879474356C151908EDF9B9B0221 /* Pods-SYParallaxScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYParallaxScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA2D7FA1D5EA0CC829FC06B7F0AD72F7 /* SYParallaxScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYParallaxScrollView-dummy.m"; sourceTree = "<group>"; };
 		AD2A6DB34CC593E6DE93C970E18BD22C /* Pods-SYParallaxScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYParallaxScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3C46F6F06FEC99D75E53026886ECEEE /* SYParallaxScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYParallaxScrollView-umbrella.h"; sourceTree = "<group>"; };
+		D274FE01DAE48DB69082EB8F52A71D00 /* SYParallaxScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYParallaxScrollView.modulemap; sourceTree = "<group>"; };
 		DFB24081A9DDA0CFDB5E71F8A957A1F7 /* Pods-SYParallaxScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYParallaxScrollView_Example-resources.sh"; sourceTree = "<group>"; };
 		E2BB34D876DAEB0A83F26846DDC36332 /* Pods-SYParallaxScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYParallaxScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C0264A8F967B8F7D3CF20A585E9D7F /* SYParallaxViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYParallaxViewItem.swift; path = SYParallaxScrollView/Classes/SYParallaxViewItem.swift; sourceTree = "<group>"; };
 		EC51384EB16B2F9E72E63390F9993D8F /* Pods-SYParallaxScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYParallaxScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6C048F5721718BDFE118EED5220A19E /* SYParallaxScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYParallaxScrollView.swift; path = SYParallaxScrollView/Classes/SYParallaxScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,18 +75,23 @@
 		0168249CBE9233B04E0F3886E368E284 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04E032B06B99C7E59BFD17816FA74DBB /* SYParallaxScrollView */,
+				CF39C7D0B557F96FC253FF56A30CBB3A /* SYParallaxScrollView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		04E032B06B99C7E59BFD17816FA74DBB /* SYParallaxScrollView */ = {
+		17D0FE1E09586557BB00723A8B6639D3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F83644A1F9CF0660091F42D /* Classes */,
+				6569A3972A1676A9A085F011345EF566 /* Info.plist */,
+				D274FE01DAE48DB69082EB8F52A71D00 /* SYParallaxScrollView.modulemap */,
+				81063299E4DC1E2F2588F51F83FC0D5B /* SYParallaxScrollView.xcconfig */,
+				AA2D7FA1D5EA0CC829FC06B7F0AD72F7 /* SYParallaxScrollView-dummy.m */,
+				121FBA13F75A13409D27C0D0EA07B4C7 /* SYParallaxScrollView-prefix.pch */,
+				B3C46F6F06FEC99D75E53026886ECEEE /* SYParallaxScrollView-umbrella.h */,
 			);
-			name = SYParallaxScrollView;
-			path = ../../SYParallaxScrollView/Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYParallaxScrollView";
 			sourceTree = "<group>";
 		};
 		447A590AE2D73A4456CA7D0959A47335 /* Pods-SYParallaxScrollView_Example */ = {
@@ -110,15 +123,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		8F83644A1F9CF0660091F42D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8F83644B1F9CF0B40091F42D /* SYParallaxScrollView.swift */,
-				8F83644C1F9CF0B40091F42D /* SYParallaxViewItem.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		B192F51527112C0C664D41AFB578195B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +137,17 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF39C7D0B557F96FC253FF56A30CBB3A /* SYParallaxScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F6C048F5721718BDFE118EED5220A19E /* SYParallaxScrollView.swift */,
+				E2C0264A8F967B8F7D3CF20A585E9D7F /* SYParallaxViewItem.swift */,
+				17D0FE1E09586557BB00723A8B6639D3 /* Support Files */,
+			);
+			name = SYParallaxScrollView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -167,6 +182,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E62D994D98F4ACE761895790E91D648 /* SYParallaxScrollView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,11 +232,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					2E2964FFBDC4C6BB2C1142D227BADC28 = {
-						LastSwiftMigration = 0900;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,9 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F83644D1F9CF0B40091F42D /* SYParallaxScrollView.swift in Sources */,
 				AE00EC06E81DDC62D0746E40C377FBD2 /* Pods-SYParallaxScrollView_Example-dummy.m in Sources */,
-				8F83644E1F9CF0B40091F42D /* SYParallaxViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC6803F8E4B778EABCCAAC984F0DE94 /* SYParallaxScrollView-dummy.m in Sources */,
+				F06CC5A5322B760E2D68401CC397EC52 /* SYParallaxScrollView.swift in Sources */,
+				8F262BCCF548605F282FB6ACF58FC792 /* SYParallaxViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +328,7 @@
 		};
 		2359CCA8AC5EF41FA566A86BDFB27673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81063299E4DC1E2F2588F51F83FC0D5B /* SYParallaxScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -350,6 +363,7 @@
 		};
 		46B5ADA270A9D58C63EEFE7852AF3CCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81063299E4DC1E2F2588F51F83FC0D5B /* SYParallaxScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -386,7 +400,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2BB34D876DAEB0A83F26846DDC36332 /* Pods-SYParallaxScrollView_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -475,7 +488,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC51384EB16B2F9E72E63390F9993D8F /* Pods-SYParallaxScrollView_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
