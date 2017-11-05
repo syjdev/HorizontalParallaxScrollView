@@ -1,22 +1,22 @@
 {
   "name": "SYParallaxScrollView",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of SYParallaxScrollView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/syjdev@gmail.com/SYParallaxScrollView",
+  "description": "A very long description of SYParallaxScrollView.",
+  "homepage": "https://github.com/syjdev/SYParallaxScrollView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "syjdev@gmail.com": "sangjin5213@coupang.com"
+    "syjdev@gmail.com": "syjdev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/syjdev@gmail.com/SYParallaxScrollView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/syjdev/SYParallaxScrollView.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SYParallaxScrollView/Classes/**/*"
+  "source_files": "SYParallaxScrollView/Classes/*"
 }

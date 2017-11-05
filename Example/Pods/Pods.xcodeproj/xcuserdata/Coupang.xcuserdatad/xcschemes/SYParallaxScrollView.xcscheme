@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '07CE1AA126F9912FBBAFC2DD2124C74C'
+               BlueprintIdentifier = '55EB65305B5C1EF771CB2F51E3F96B0F'
                BlueprintName = 'SYParallaxScrollView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SYParallaxScrollView.framework'>
