@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
 
+![Demo Animation](https://github.com/syjdev/SYParallaxScrollView/Images/demo.gif "Demo")
+
+
 ## Usage
 
 - First, You have to define `SYParallaxViewItem` object.
