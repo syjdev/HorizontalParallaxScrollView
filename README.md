@@ -6,6 +6,9 @@
 
 ![Demo Animation](https://imgur.com/kOxmsHr.gif "Demo")
 
+You can see above demo project code.
+![demo project code](https://github.com/syjdev/SYParallaxScrollView/tree/master/Example)
+
 
 ## Usage
 

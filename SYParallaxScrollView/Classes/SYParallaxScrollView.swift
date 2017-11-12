@@ -94,7 +94,8 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
             internalScrollView.addSubview(parallaxScrollViewItem.view)
         }
 
-        internalScrollView.contentSize = CGSize(width: maxX,
+        let multiplier = CGFloat(Int(maxX / frame.size.width) + 1)
+        internalScrollView.contentSize = CGSize(width: multiplier * frame.size.width,
                                                 height: frame.size.height)
     }
 
