@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
 
-![Demo Animation](https://imgur.com/3YAkoIS.gif "Demo")
+![Demo Animation](https://i.imgur.com/RKG6rwR.gif "Demo")
 
 
 ## Usage
