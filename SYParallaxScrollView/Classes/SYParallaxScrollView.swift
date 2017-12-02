@@ -21,7 +21,7 @@ public class SYParallaxScrollViewBuilder: NSObject {
 
 
     public class func setOption(_ closure: ((inout SYParallaxScrollViewOption) -> Void)) -> SYParallaxScrollViewBuilder {
-        var option = SYParallaxScrollViewOption(parallaxViewItems: nil, frame: CGRect.zero, isPagingEnabled: false)
+        var option = SYParallaxScrollViewOption()
         closure(&option)
         return SYParallaxScrollViewBuilder(parallaxScrollViewOption: option)
     }
@@ -34,9 +34,11 @@ public class SYParallaxScrollViewBuilder: NSObject {
 
 
 public struct SYParallaxScrollViewOption {
-    public var parallaxViewItems: Array<SYParallaxViewItem>?
-    public var frame: CGRect
-    public var isPagingEnabled: Bool
+    public var parallaxViewItems: Array<SYParallaxViewItem>? = nil
+    public var frame: CGRect = CGRect.zero
+    public var isPagingEnabled: Bool = false
+    public var contentWidth: CGFloat = 0
+//    public var contentSize: CGSize
 }
 
 
@@ -69,6 +71,7 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
 
 
         super.init(frame: option.frame)
+        internalScrollView.contentSize = CGSize(width: option.contentWidth, height: option.frame.size.height)
         internalScrollView.delegate = self
         internalScrollView.isPagingEnabled = option.isPagingEnabled
 
@@ -77,7 +80,7 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
 
 
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("init(coder:) has not allowed")
     }
 
 
@@ -94,9 +97,12 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
             internalScrollView.addSubview(parallaxScrollViewItem.view)
         }
 
-        let multiplier = CGFloat(Int(maxX / frame.size.width) + 1)
-        internalScrollView.contentSize = CGSize(width: multiplier * frame.size.width,
-                                                height: frame.size.height)
+        if internalScrollView.contentSize == CGSize.zero {
+            print("SYParallaxScrollViewOption's contentWidth not setted. It could scroll weired.")
+            let multiplier = CGFloat(Int(maxX / frame.size.width) + 1)
+            internalScrollView.contentSize = CGSize(width: multiplier * frame.size.width,
+                                                    height: frame.size.height)
+        }
     }
 
 
