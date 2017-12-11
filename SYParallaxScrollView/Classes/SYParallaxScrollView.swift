@@ -38,7 +38,6 @@ public struct SYParallaxScrollViewOption {
     public var frame: CGRect = CGRect.zero
     public var isPagingEnabled: Bool = false
     public var contentWidth: CGFloat = 0
-//    public var contentSize: CGSize
 }
 
 
@@ -69,8 +68,8 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
             self.parallaxViewItems = Array<SYParallaxViewItem>()
         }
 
-
         super.init(frame: option.frame)
+        
         internalScrollView.contentSize = CGSize(width: option.contentWidth, height: option.frame.size.height)
         internalScrollView.delegate = self
         internalScrollView.showsHorizontalScrollIndicator = false

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYParallaxScrollView'
-  s.version          = '0.1.9'
-  s.summary          = 'A short description of SYParallaxScrollView.'
+  s.version          = '0.2.0'
+  s.summary          = 'Using SYParallaxScrollView is an one of wonderful way that configure Horizontal Parallax UI. I will welcome your feedback.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
