@@ -73,6 +73,8 @@ public class SYParallaxScrollView : UIView, UIScrollViewDelegate {
         super.init(frame: option.frame)
         internalScrollView.contentSize = CGSize(width: option.contentWidth, height: option.frame.size.height)
         internalScrollView.delegate = self
+        internalScrollView.showsHorizontalScrollIndicator = false
+        internalScrollView.showsVerticalScrollIndicator = false
         internalScrollView.isPagingEnabled = option.isPagingEnabled
 
         setupViews()
