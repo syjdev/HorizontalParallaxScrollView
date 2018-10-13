@@ -1,0 +1,6 @@
+framework module HorizontalParallaxScrollView {
+  umbrella header "HorizontalParallaxScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

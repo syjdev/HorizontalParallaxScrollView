@@ -1,0 +1,22 @@
+{
+  "name": "HorizontalParallaxScrollView",
+  "version": "0.1.0",
+  "summary": "A short description of HorizontalParallaxScrollView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/syjdev/HorizontalParallaxScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "syjdev": "syjdev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/syjdev/HorizontalParallaxScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HorizontalParallaxScrollView/Classes/**/*"
+}

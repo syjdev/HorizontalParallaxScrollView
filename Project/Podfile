@@ -1,6 +1,0 @@
-use_frameworks!
-
-target 'SYParallaxScrollView_Example' do
-  pod 'SYParallaxScrollView', :path => '../'
-
-end

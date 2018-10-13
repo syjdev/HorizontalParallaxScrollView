@@ -1,0 +1,6 @@
+framework module Pods_HorizontalParallaxScrollView_Example {
+  umbrella header "Pods-HorizontalParallaxScrollView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HorizontalParallaxScrollView (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalParallaxScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalParallaxScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HorizontalParallaxScrollView: e378e3e1cd7cc510be811a0138bfe8f6bb203dbd
+
+PODFILE CHECKSUM: a098e17a728f97785d469ff928611a966ff1a7b1
+
+COCOAPODS: 1.5.3

@@ -1,56 +1,56 @@
-# SYParallaxScrollView
+# HorizontalParallaxScrollView
 
-[![Version](https://img.shields.io/cocoapods/v/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
-[![License](https://img.shields.io/cocoapods/l/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
-[![Platform](https://img.shields.io/cocoapods/p/SYParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/SYParallaxScrollView)
+[![Version](https://img.shields.io/cocoapods/v/HorizontalParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/HorizontalParallaxScrollView)
+[![License](https://img.shields.io/cocoapods/l/HorizontalParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/HorizontalParallaxScrollView)
+[![Platform](https://img.shields.io/cocoapods/p/HorizontalParallaxScrollView.svg?style=flat)](http://cocoapods.org/pods/HorizontalParallaxScrollView)
 
 ![Demo Animation](https://imgur.com/kOxmsHr.gif "Demo")
 
 You can see above demo project code.
-![demo project code](https://github.com/syjdev/SYParallaxScrollView/tree/master/Example)
+![demo project code](https://github.com/syjdev/HorizontalParallaxScrollView/tree/master/Example)
 
 
 ## Usage
 
-- First, You have to define `SYParallaxViewItem` object.
+- First, You have to define `HorizontalParallaxScrollView` object.
 
 ```swift
 let view = UIView(...)
 let item = SYParallaxViewItem(view: view,
-                      originOffset: CGPoint(x: 150, y: 80),
-                      acceleration: SYParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
-                          progress: { (parallaxView, view) in
-                                       //...
-                                    }
-                              )
+originOffset: CGPoint(x: 150, y: 80),
+acceleration: SYParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
+progress: { (parallaxView, view) in
+//...
+}
+)
 ```
 
 If you want, You can define a dynamic acceleration.
 
 ```swift
 let dynamicAcceleration = SYParallaxAcceleration.variable { (parallaxView, view) -> CGPoint in
-	let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
-	return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
+let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
+return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
 }
 
 let view = UIView(...)
 let item = SYParallaxViewItem(view: view,
-                      originOffset: CGPoint(x: 150, y: 80),
-                      acceleration: dynamicAcceleration,
-                          progress: { (parallaxView, view) in
-                                       //...
-                                    }
-                              )
+originOffset: CGPoint(x: 150, y: 80),
+acceleration: dynamicAcceleration,
+progress: { (parallaxView, view) in
+//...
+}
+)
 ```
 
 - Second, Build a parallaxView.
 
 ```swift
 let parallaxView = SYParallaxScrollViewBuilder.setOption { (option) in
-                        option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
-                        option.parallaxViewItems = [item] // You can add more items.
-                        option.isPagingEnabled = false
-                   }.build()
+option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
+option.parallaxViewItems = [item] // You can add more items.
+option.isPagingEnabled = false
+}.build()
 parallaxView.delegate = self //Optional
 ```
 

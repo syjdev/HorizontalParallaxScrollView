@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HorizontalParallaxScrollView_Example' do
+  pod 'HorizontalParallaxScrollView', :path => '../'
+
+  target 'HorizontalParallaxScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

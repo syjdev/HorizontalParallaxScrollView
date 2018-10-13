@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E105058A343259D74CB3E7D483013B0 /* Pods-HorizontalParallaxScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BF4FECAB544A8BA98611D240E45A0F /* Pods-HorizontalParallaxScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC49DB7C885E26D63FBB7FF246E6DFA /* Pods-HorizontalParallaxScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF13937BE11380B3814ABF15E07F55D5 /* Pods-HorizontalParallaxScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76D4B0110B18C2186336D2B5F54EC59F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		76FCCCB23711C2F05910F866E665054A /* HorizontalParallaxScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B1E99028EB7D6E4F0F57D59F4A61BD /* HorizontalParallaxScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87AEEA4FCE3E4C263FB423E135D01D62 /* Pods-HorizontalParallaxScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3DF81B5F13299F5B62347528BDAE15 /* Pods-HorizontalParallaxScrollView_Tests-dummy.m */; };
+		965FD29253B76343650F96891F08AC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9C5965C48C1719295A306E6148545DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D3EDA5ABD734609969809A14F4DB1853 /* HorizontalParallaxScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB596D78795104F069D7A9FD284F2C69 /* HorizontalParallaxScrollView-dummy.m */; };
+		DE83A8FD2171AD48008EF11C /* HorizontalParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE83A8FB2171AD48008EF11C /* HorizontalParallaxScrollView.swift */; };
+		DE83A8FE2171AD48008EF11C /* HorizontalParallaxScrollViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE83A8FC2171AD48008EF11C /* HorizontalParallaxScrollViewItem.swift */; };
+		FE01BC3701F4641C20A8FAEAC0B8EB83 /* Pods-HorizontalParallaxScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB9C0FF087CD8201307C4E77239066 /* Pods-HorizontalParallaxScrollView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB78FCB6B7C9EA759775F2346CB7AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 129E182CA485E113D647C50716DA3513;
+			remoteInfo = HorizontalParallaxScrollView;
+		};
+		844F5E82794D782000B020F78B7A8C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5BABCA6DDD5DEB8E4EC7AECD8E3B62;
+			remoteInfo = "Pods-HorizontalParallaxScrollView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		119ABE8D232E995F4503C111A78DA0FB /* Pods_HorizontalParallaxScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalParallaxScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FDE86625E57A958CF7F823C038C75A /* HorizontalParallaxScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HorizontalParallaxScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15BF4FECAB544A8BA98611D240E45A0F /* Pods-HorizontalParallaxScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalParallaxScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		37DB745CAFEEEBE9F12885A882003113 /* Pods-HorizontalParallaxScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalParallaxScrollView_Tests.modulemap"; sourceTree = "<group>"; };
+		417EB27ADEC56D051CA0BB74F6660DFB /* Pods-HorizontalParallaxScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalParallaxScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		455B8BE213F33511BE45A15B3E28C856 /* HorizontalParallaxScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalParallaxScrollView.xcconfig; sourceTree = "<group>"; };
+		49ACCD617C5900387F99B865E57F3978 /* Pods-HorizontalParallaxScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalParallaxScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C119D34D5230165ABADA9B5F3F657E8 /* Pods-HorizontalParallaxScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalParallaxScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6EDD0A70C7738510DF17606C42CAF83B /* Pods-HorizontalParallaxScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalParallaxScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A53064E3BB8DE026F04CCCB926AF273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8262A96D1A1E351BC7A0FCF46F62872F /* Pods-HorizontalParallaxScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalParallaxScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		827E25090B5198BDFAE8545BFE52A9A4 /* HorizontalParallaxScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalParallaxScrollView-prefix.pch"; sourceTree = "<group>"; };
+		82A997B0F888DD328CD4B86A3237DCBD /* Pods-HorizontalParallaxScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalParallaxScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		87027A8BCBF8723671415C5E500253DF /* HorizontalParallaxScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalParallaxScrollView.modulemap; sourceTree = "<group>"; };
+		8C14C95275631120FAE89F3449F7C6EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A950880BEB537379EFDF93188BDBC4 /* Pods_HorizontalParallaxScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalParallaxScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FF2F82967248CFA54AD574179AAEFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9926654F5A5BF72A36E13FBAEC20E2D5 /* HorizontalParallaxScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalParallaxScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC00395D3E5636102A246E0AB02300E /* Pods-HorizontalParallaxScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalParallaxScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A93B74F3028DE419D8D1ABA6BA0307 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32A0464E71EA0D4E49698C70B4A5A78 /* Pods-HorizontalParallaxScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalParallaxScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		C7906146BA3626C4FEB4604B44D63D5C /* Pods-HorizontalParallaxScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalParallaxScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D857479D6FB1ED20792082988DCAF664 /* Pods-HorizontalParallaxScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalParallaxScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCACA5B89575619DBF8334C3F21B023F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE83A8FB2171AD48008EF11C /* HorizontalParallaxScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalParallaxScrollView.swift; path = HorizontalParallaxScrollView/Classes/HorizontalParallaxScrollView.swift; sourceTree = "<group>"; };
+		DE83A8FC2171AD48008EF11C /* HorizontalParallaxScrollViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalParallaxScrollViewItem.swift; path = HorizontalParallaxScrollView/Classes/HorizontalParallaxScrollViewItem.swift; sourceTree = "<group>"; };
+		ED495ED9804380774FFE7ADF68D38308 /* Pods-HorizontalParallaxScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalParallaxScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EEFA7B29D65A024CA71F3BB538E453AA /* Pods-HorizontalParallaxScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalParallaxScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF3DF81B5F13299F5B62347528BDAE15 /* Pods-HorizontalParallaxScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalParallaxScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F337950E357A57C190A050D41B59C956 /* Pods-HorizontalParallaxScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalParallaxScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3B1E99028EB7D6E4F0F57D59F4A61BD /* HorizontalParallaxScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalParallaxScrollView-umbrella.h"; sourceTree = "<group>"; };
+		FB596D78795104F069D7A9FD284F2C69 /* HorizontalParallaxScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalParallaxScrollView-dummy.m"; sourceTree = "<group>"; };
+		FCDB9C0FF087CD8201307C4E77239066 /* Pods-HorizontalParallaxScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalParallaxScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		FF13937BE11380B3814ABF15E07F55D5 /* Pods-HorizontalParallaxScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalParallaxScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AB319320F9DF2F618AE52AA68C12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965FD29253B76343650F96891F08AC52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7520E513176A70CB39AAEF3F591376A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5965C48C1719295A306E6148545DCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3F5A6F5821459A4D385931909CDE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4B0110B18C2186336D2B5F54EC59F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1858AB501B5570D5F75EFBF5DACF89E7 /* Pods-HorizontalParallaxScrollView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96FF2F82967248CFA54AD574179AAEFF /* Info.plist */,
+				37DB745CAFEEEBE9F12885A882003113 /* Pods-HorizontalParallaxScrollView_Tests.modulemap */,
+				6EDD0A70C7738510DF17606C42CAF83B /* Pods-HorizontalParallaxScrollView_Tests-acknowledgements.markdown */,
+				F337950E357A57C190A050D41B59C956 /* Pods-HorizontalParallaxScrollView_Tests-acknowledgements.plist */,
+				EF3DF81B5F13299F5B62347528BDAE15 /* Pods-HorizontalParallaxScrollView_Tests-dummy.m */,
+				8262A96D1A1E351BC7A0FCF46F62872F /* Pods-HorizontalParallaxScrollView_Tests-frameworks.sh */,
+				EEFA7B29D65A024CA71F3BB538E453AA /* Pods-HorizontalParallaxScrollView_Tests-resources.sh */,
+				FF13937BE11380B3814ABF15E07F55D5 /* Pods-HorizontalParallaxScrollView_Tests-umbrella.h */,
+				9CC00395D3E5636102A246E0AB02300E /* Pods-HorizontalParallaxScrollView_Tests.debug.xcconfig */,
+				D857479D6FB1ED20792082988DCAF664 /* Pods-HorizontalParallaxScrollView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HorizontalParallaxScrollView_Tests";
+			path = "Target Support Files/Pods-HorizontalParallaxScrollView_Tests";
+			sourceTree = "<group>";
+		};
+		3537FF2EC9B28361862D8244F830E5AA /* Pods-HorizontalParallaxScrollView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6A93B74F3028DE419D8D1ABA6BA0307 /* Info.plist */,
+				B32A0464E71EA0D4E49698C70B4A5A78 /* Pods-HorizontalParallaxScrollView_Example.modulemap */,
+				49ACCD617C5900387F99B865E57F3978 /* Pods-HorizontalParallaxScrollView_Example-acknowledgements.markdown */,
+				417EB27ADEC56D051CA0BB74F6660DFB /* Pods-HorizontalParallaxScrollView_Example-acknowledgements.plist */,
+				FCDB9C0FF087CD8201307C4E77239066 /* Pods-HorizontalParallaxScrollView_Example-dummy.m */,
+				ED495ED9804380774FFE7ADF68D38308 /* Pods-HorizontalParallaxScrollView_Example-frameworks.sh */,
+				82A997B0F888DD328CD4B86A3237DCBD /* Pods-HorizontalParallaxScrollView_Example-resources.sh */,
+				15BF4FECAB544A8BA98611D240E45A0F /* Pods-HorizontalParallaxScrollView_Example-umbrella.h */,
+				C7906146BA3626C4FEB4604B44D63D5C /* Pods-HorizontalParallaxScrollView_Example.debug.xcconfig */,
+				6C119D34D5230165ABADA9B5F3F657E8 /* Pods-HorizontalParallaxScrollView_Example.release.xcconfig */,
+			);
+			name = "Pods-HorizontalParallaxScrollView_Example";
+			path = "Target Support Files/Pods-HorizontalParallaxScrollView_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D8F0A2FDAF7ED5D2E7B482A56EB07A75 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEA4FB0F3301A336F8A8EFED2361CEA7 /* Products */,
+				84B9EAA4CE7E738D2E2D175A8E2B5281 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84B9EAA4CE7E738D2E2D175A8E2B5281 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3537FF2EC9B28361862D8244F830E5AA /* Pods-HorizontalParallaxScrollView_Example */,
+				1858AB501B5570D5F75EFBF5DACF89E7 /* Pods-HorizontalParallaxScrollView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96902D9F9ACE2ABE92CFBF06292C6643 /* HorizontalParallaxScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DE83A8FB2171AD48008EF11C /* HorizontalParallaxScrollView.swift */,
+				DE83A8FC2171AD48008EF11C /* HorizontalParallaxScrollViewItem.swift */,
+				B4020E92FF56CC2A9442F52EED495E8A /* Pod */,
+				EED4B144F4F6F7460B1F90D776C393A5 /* Support Files */,
+			);
+			name = HorizontalParallaxScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4020E92FF56CC2A9442F52EED495E8A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12FDE86625E57A958CF7F823C038C75A /* HorizontalParallaxScrollView.podspec */,
+				8C14C95275631120FAE89F3449F7C6EE /* LICENSE */,
+				DCACA5B89575619DBF8334C3F21B023F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA4FB0F3301A336F8A8EFED2361CEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9926654F5A5BF72A36E13FBAEC20E2D5 /* HorizontalParallaxScrollView.framework */,
+				119ABE8D232E995F4503C111A78DA0FB /* Pods_HorizontalParallaxScrollView_Example.framework */,
+				93A950880BEB537379EFDF93188BDBC4 /* Pods_HorizontalParallaxScrollView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F0A2FDAF7ED5D2E7B482A56EB07A75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96902D9F9ACE2ABE92CFBF06292C6643 /* HorizontalParallaxScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EED4B144F4F6F7460B1F90D776C393A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87027A8BCBF8723671415C5E500253DF /* HorizontalParallaxScrollView.modulemap */,
+				455B8BE213F33511BE45A15B3E28C856 /* HorizontalParallaxScrollView.xcconfig */,
+				FB596D78795104F069D7A9FD284F2C69 /* HorizontalParallaxScrollView-dummy.m */,
+				827E25090B5198BDFAE8545BFE52A9A4 /* HorizontalParallaxScrollView-prefix.pch */,
+				F3B1E99028EB7D6E4F0F57D59F4A61BD /* HorizontalParallaxScrollView-umbrella.h */,
+				7A53064E3BB8DE026F04CCCB926AF273 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HorizontalParallaxScrollView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19EF0347CE70A3720275CDFADF04B9FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E105058A343259D74CB3E7D483013B0 /* Pods-HorizontalParallaxScrollView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4273836DA80979BBC7095682E468BE81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FCCCB23711C2F05910F866E665054A /* HorizontalParallaxScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02BE17DA1995FA3477A9E240E3071A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC49DB7C885E26D63FBB7FF246E6DFA /* Pods-HorizontalParallaxScrollView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		129E182CA485E113D647C50716DA3513 /* HorizontalParallaxScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB2F4AFE48EAD23D6FBEC6EA5E1AB3A /* Build configuration list for PBXNativeTarget "HorizontalParallaxScrollView" */;
+			buildPhases = (
+				2AC870A22EF58F7562772D62837AE4D3 /* Sources */,
+				01AB319320F9DF2F618AE52AA68C12DE /* Frameworks */,
+				4273836DA80979BBC7095682E468BE81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalParallaxScrollView;
+			productName = HorizontalParallaxScrollView;
+			productReference = 9926654F5A5BF72A36E13FBAEC20E2D5 /* HorizontalParallaxScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		604B0F5AAD9228B5476B6B7A0B5C8BB5 /* Pods-HorizontalParallaxScrollView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2AD5056D4B274DFE4BC0AD26DE774D /* Build configuration list for PBXNativeTarget "Pods-HorizontalParallaxScrollView_Tests" */;
+			buildPhases = (
+				5709BE8EAFE2213109F80C97227D839D /* Sources */,
+				9C3F5A6F5821459A4D385931909CDE95 /* Frameworks */,
+				F02BE17DA1995FA3477A9E240E3071A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E796CC8A2371EBBF4079FC1FF36617A /* PBXTargetDependency */,
+			);
+			name = "Pods-HorizontalParallaxScrollView_Tests";
+			productName = "Pods-HorizontalParallaxScrollView_Tests";
+			productReference = 93A950880BEB537379EFDF93188BDBC4 /* Pods_HorizontalParallaxScrollView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A5BABCA6DDD5DEB8E4EC7AECD8E3B62 /* Pods-HorizontalParallaxScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3009E911EFADD74BD9D24D8CFC0FF767 /* Build configuration list for PBXNativeTarget "Pods-HorizontalParallaxScrollView_Example" */;
+			buildPhases = (
+				D0912254B1D652E947467FE8E078689E /* Sources */,
+				7520E513176A70CB39AAEF3F591376A5 /* Frameworks */,
+				19EF0347CE70A3720275CDFADF04B9FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA277CCED4865B11CAF6253FF288AB47 /* PBXTargetDependency */,
+			);
+			name = "Pods-HorizontalParallaxScrollView_Example";
+			productName = "Pods-HorizontalParallaxScrollView_Example";
+			productReference = 119ABE8D232E995F4503C111A78DA0FB /* Pods_HorizontalParallaxScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					129E182CA485E113D647C50716DA3513 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BEA4FB0F3301A336F8A8EFED2361CEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				129E182CA485E113D647C50716DA3513 /* HorizontalParallaxScrollView */,
+				9A5BABCA6DDD5DEB8E4EC7AECD8E3B62 /* Pods-HorizontalParallaxScrollView_Example */,
+				604B0F5AAD9228B5476B6B7A0B5C8BB5 /* Pods-HorizontalParallaxScrollView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC870A22EF58F7562772D62837AE4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE83A8FD2171AD48008EF11C /* HorizontalParallaxScrollView.swift in Sources */,
+				D3EDA5ABD734609969809A14F4DB1853 /* HorizontalParallaxScrollView-dummy.m in Sources */,
+				DE83A8FE2171AD48008EF11C /* HorizontalParallaxScrollViewItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709BE8EAFE2213109F80C97227D839D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AEEA4FCE3E4C263FB423E135D01D62 /* Pods-HorizontalParallaxScrollView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0912254B1D652E947467FE8E078689E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE01BC3701F4641C20A8FAEAC0B8EB83 /* Pods-HorizontalParallaxScrollView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E796CC8A2371EBBF4079FC1FF36617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HorizontalParallaxScrollView_Example";
+			target = 9A5BABCA6DDD5DEB8E4EC7AECD8E3B62 /* Pods-HorizontalParallaxScrollView_Example */;
+			targetProxy = 844F5E82794D782000B020F78B7A8C8D /* PBXContainerItemProxy */;
+		};
+		DA277CCED4865B11CAF6253FF288AB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HorizontalParallaxScrollView;
+			target = 129E182CA485E113D647C50716DA3513 /* HorizontalParallaxScrollView */;
+			targetProxy = 7BB78FCB6B7C9EA759775F2346CB7AEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C58F1D8D49CB2A9AE6C3CF9F36C91AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455B8BE213F33511BE45A15B3E28C856 /* HorizontalParallaxScrollView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalParallaxScrollView/HorizontalParallaxScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalParallaxScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HorizontalParallaxScrollView/HorizontalParallaxScrollView.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalParallaxScrollView;
+				PRODUCT_NAME = HorizontalParallaxScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EC7DF26D673AFE04AE5D3CFF00B803F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C119D34D5230165ABADA9B5F3F657E8 /* Pods-HorizontalParallaxScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Example/Pods-HorizontalParallaxScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CA321B28D20CB5A5B980BD9BA9509F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D857479D6FB1ED20792082988DCAF664 /* Pods-HorizontalParallaxScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Tests/Pods-HorizontalParallaxScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		339D224A8C0F30A18F7D1CD8C39CFA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455B8BE213F33511BE45A15B3E28C856 /* HorizontalParallaxScrollView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalParallaxScrollView/HorizontalParallaxScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalParallaxScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HorizontalParallaxScrollView/HorizontalParallaxScrollView.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalParallaxScrollView;
+				PRODUCT_NAME = HorizontalParallaxScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E550FAD9C3794AF81D55F5B9A4B8ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC00395D3E5636102A246E0AB02300E /* Pods-HorizontalParallaxScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Tests/Pods-HorizontalParallaxScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABB89982AC03C032E9902EB9D56D73E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7906146BA3626C4FEB4604B44D63D5C /* Pods-HorizontalParallaxScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalParallaxScrollView_Example/Pods-HorizontalParallaxScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3009E911EFADD74BD9D24D8CFC0FF767 /* Build configuration list for PBXNativeTarget "Pods-HorizontalParallaxScrollView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB89982AC03C032E9902EB9D56D73E8 /* Debug */,
+				1EC7DF26D673AFE04AE5D3CFF00B803F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2AD5056D4B274DFE4BC0AD26DE774D /* Build configuration list for PBXNativeTarget "Pods-HorizontalParallaxScrollView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E550FAD9C3794AF81D55F5B9A4B8ECF /* Debug */,
+				2CA321B28D20CB5A5B980BD9BA9509F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB2F4AFE48EAD23D6FBEC6EA5E1AB3A /* Build configuration list for PBXNativeTarget "HorizontalParallaxScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C58F1D8D49CB2A9AE6C3CF9F36C91AA /* Debug */,
+				339D224A8C0F30A18F7D1CD8C39CFA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
