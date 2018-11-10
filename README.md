@@ -15,42 +15,40 @@ You can see above demo project code.
 - First, You have to define `HorizontalParallaxScrollView` object.
 
 ```swift
-let view = UIView(...)
+let view = UIView(frame: CGRect(x: ?, y: ?, width: ?, height: ?))
 let item = HorizontalParallaxScrollViewItem(view: view,
-originOffset: CGPoint(x: 150, y: 80),
-acceleration: HorizontalParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
-progress: { (parallaxView, view) in
-//...
-}
-)
+                                            originOffset: CGPoint(x: 150, y: 80),
+                                            acceleration: ParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
+                                            progress: { (parallaxView, view) in
+                                                //...
+                                            })
 ```
 
 If you want, You can define a dynamic acceleration.
 
 ```swift
-let dynamicAcceleration = HorizontalParallaxAcceleration.variable { (parallaxView, view) -> CGPoint in
-let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
-return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
-}
+let dynamicAcceleration = ParallaxAcceleration.variable { (parallaxView, view) -> CGPoint in
+                            let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
+                            return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
+                          }
 
-let view = UIView(...)
+let view = UIView(frame: CGRect(x: ?, y: ?, width: ?, height: ?))
 let item = HorizontalParallaxScrollViewItem(view: view,
-originOffset: CGPoint(x: 150, y: 80),
-acceleration: dynamicAcceleration,
-progress: { (parallaxView, view) in
-//...
-}
-)
+                                            originOffset: CGPoint(x: 150, y: 80),
+                                            acceleration: dynamicAcceleration,
+                                            progress: { (parallaxView, view) in
+                                                //...
+                                            })
 ```
 
 - Second, Build a parallaxView.
 
 ```swift
 let parallaxView = HorizontalParallaxScrollViewBuilder.setOption { (option) in
-option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
-option.parallaxViewItems = [item] // You can add more items.
-option.isPagingEnabled = false
-}.build()
+                        option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
+                        option.parallaxViewItems = [item] // You can add more items.
+                        option.isPagingEnabled = false
+                   }.build()
 parallaxView.delegate = self //Optional
 ```
 
