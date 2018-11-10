@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HorizontalParallaxScrollView'
-  s.version          = '0.2.1'
+  s.version          = '0.2.3'
   s.summary          = 'Helpful UI Component for configure Horizontal Parallax Effect.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/syjdev/HorizontalParallaxScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.source_files = 'HorizontalParallaxScrollView/HorizontalParallaxScrollView/Classes/*'
+  s.source_files = 'HorizontalParallaxScrollView/Classes/*'
   s.ios.deployment_target = '8.0'
 
   
