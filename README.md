@@ -15,42 +15,40 @@ You can see above demo project code.
 - First, You have to define `HorizontalParallaxScrollView` object.
 
 ```swift
-let view = UIView(...)
-let item = SYParallaxViewItem(view: view,
-originOffset: CGPoint(x: 150, y: 80),
-acceleration: SYParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
-progress: { (parallaxView, view) in
-//...
-}
-)
+let view = UIView(frame: CGRect(x: ?, y: ?, width: ?, height: ?))
+let item = HorizontalParallaxScrollViewItem(view: view,
+                                            originOffset: CGPoint(x: 150, y: 80),
+                                            acceleration: ParallaxAcceleration.invariable(CGPoint(x: 1, y: 1)),
+                                            progress: { (parallaxView, view) in
+                                                //...
+                                            })
 ```
 
 If you want, You can define a dynamic acceleration.
 
 ```swift
-let dynamicAcceleration = SYParallaxAcceleration.variable { (parallaxView, view) -> CGPoint in
-let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
-return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
-}
+let dynamicAcceleration = ParallaxAcceleration.variable { (parallaxView, view) -> CGPoint in
+                            let progressRatio = (parallaxView.contentSize.width - 3 * parallaxView.contentOffset.x) / parallaxView.contentSize.width
+                            return CGPoint(x: 0.65 * progressRatio, y: 0.65 * (1 - progressRatio))
+                          }
 
-let view = UIView(...)
-let item = SYParallaxViewItem(view: view,
-originOffset: CGPoint(x: 150, y: 80),
-acceleration: dynamicAcceleration,
-progress: { (parallaxView, view) in
-//...
-}
-)
+let view = UIView(frame: CGRect(x: ?, y: ?, width: ?, height: ?))
+let item = HorizontalParallaxScrollViewItem(view: view,
+                                            originOffset: CGPoint(x: 150, y: 80),
+                                            acceleration: dynamicAcceleration,
+                                            progress: { (parallaxView, view) in
+                                                //...
+                                            })
 ```
 
 - Second, Build a parallaxView.
 
 ```swift
-let parallaxView = SYParallaxScrollViewBuilder.setOption { (option) in
-option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
-option.parallaxViewItems = [item] // You can add more items.
-option.isPagingEnabled = false
-}.build()
+let parallaxView = HorizontalParallaxScrollViewBuilder.setOption { (option) in
+                        option.frame = CGRect(x: 0, y: 100, width: view.frame.size.width, height: view.frame.size.height - 100)
+                        option.parallaxViewItems = [item] // You can add more items.
+                        option.isPagingEnabled = false
+                   }.build()
 parallaxView.delegate = self //Optional
 ```
 
@@ -62,11 +60,11 @@ Minimum iOS Target : iOS 8.0
 
 ## Installation
 
-SYParallaxScrollView is available through [CocoaPods](http://cocoapods.org). To install
+HorizontalParallaxScrollView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SYParallaxScrollView'
+pod 'HorizontalParallaxScrollView'
 ```
 
 ## Author
@@ -75,4 +73,4 @@ syjdev@gmail.com
 
 ## License
 
-SYParallaxScrollView is available under the MIT license. See the LICENSE file for more info.
+HorizontalParallaxScrollView is available under the MIT license. See the LICENSE file for more info.
