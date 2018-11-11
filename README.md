@@ -7,7 +7,7 @@
 ![Demo Animation](https://imgur.com/kOxmsHr.gif "Demo")
 
 You can see above demo project code.
-![demo project code](https://github.com/syjdev/HorizontalParallaxScrollView/tree/master/Example)
+[demo project code](https://github.com/syjdev/HorizontalParallaxScrollView/tree/master/Example)
 
 
 ## Usage
@@ -67,10 +67,14 @@ it, simply add the following line to your Podfile:
 pod 'HorizontalParallaxScrollView'
 ```
 
+## History
+
+- Change Repository & Pod name(SYParallaxScrollView -> HorizontalParallaxScrollView).
+
 ## Author
 
 syjdev@gmail.com
 
 ## License
 
-HorizontalParallaxScrollView is available under the MIT license. See the LICENSE file for more info.
+HorizontalParallaxScrollView is available under the MIT license.
